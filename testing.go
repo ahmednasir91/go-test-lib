@@ -10,8 +10,8 @@ import (
 // MockDb is a wrapper around sqlmock and sqlx.DB
 type MockDb struct {
 	mockDB *sql.DB
-	mock   sqlmock.Sqlmock
-	db     *sqlx.DB
+	Mock   sqlmock.Sqlmock
+	Db     *sqlx.DB
 }
 
 // Finish is a wrapper around sqlmock.ExpectationsWereMet
